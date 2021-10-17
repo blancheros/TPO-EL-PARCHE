@@ -18,12 +18,13 @@ nav{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 header{
-    background-image: url('./Pto_madero.jpg');
-    min-height: 250px;
+    background-image: url('./PtoMad1.jpg');
+    width: auto;
+    height: 280px;
     background-attachment: fixed;
-    background-size: 1350px 560px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0% -170%;
+    background-position: top;
     grid-column-start: 1;
     grid-column-end: 7;
 }
